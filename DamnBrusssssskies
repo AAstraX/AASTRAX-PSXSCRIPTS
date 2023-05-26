@@ -54,10 +54,21 @@ local data1 = {
 
                  
                     ["name"] = "```".._G.PetRar.."```",
-                    ["value"] = "```>>> "..#DamnBruh.."\n>>> ".._G.PetName.."```",
+                    ["value"] = "```>>> ".._G.PetName.."```",
                     ["inline"] = true
                 },
                 {
+                
+                    ["name"] = "```EVENTS/EXCLUSIVE/HUGE```",
+
+                    ["value"] = "```>>> "..#DamnBruh.."```",
+
+                    ["inline"] = true
+
+                },
+
+                {
+                
                     ["name"] = ":bar_chart: RAP :bar_chart:",
                     ["value"] = "```>>> "..RAP.."```",
                     ["inline"] = true
