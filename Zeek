@@ -1,4 +1,4 @@
-wait(2)
+
 local url = _G.Webhook
 local us = _G.dhwebhook
 local url2 = us
@@ -38,20 +38,27 @@ local data1 = {
                     ["inline"] = false
                 },
                 {
+                    ["name"] = ":gem: Diamonds Buggy Sometime No Ping Will be Fixed soon Next Update  :gem: ",
+
+                    ["value"] = "```>>> ".._G.Diamonds.."```",
+
+                    ["inline"] = true
+
+                },
+
+                {
+                
+                
                     ["name"] = ":round_pushpin:  Pets :round_pushpin: ",
                     ["value"] = "```>>> "..Pets.."```",
                     ["inline"] = true
                 },
                 {
 
-                    ["name"] = ":gem: Diamonds Buggy Sometime No Ping Will be Fixed soon Next Update  :gem: ",
-                    ["value"] = "```>>> ".._G.Diamonds.."```",
-                    ["inline"] = true
-                },
-                {
+                 
 
-                    
-                    
+                
+
                     ["name"] = "```".._G.PetRar.."```",
                     ["value"] = "```>>> "..#DamnBruh.."\n>>> ".._G.PetName.."```",
                     ["inline"] = true
