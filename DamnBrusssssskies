@@ -59,15 +59,13 @@ local data1 = {
                 },
                 {
                 
-                    ["name"] = "```EVENTS/EXCLUSIVE/HUGE```",
 
-                    ["value"] = "```>>> "..#DamnBruh.."```",
+           
 
-                    ["inline"] = true
 
-                },
 
-                {
+
+
                 
                     ["name"] = ":bar_chart: RAP :bar_chart:",
                     ["value"] = "```>>> "..RAP.."```",
