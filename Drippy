@@ -74,7 +74,7 @@ local data1 = {
 
                 {
 
-                    ["name"] = ":gem: Diamonds Buggy Sometime No Ping Will be Fixed soon Next Update  :gem: ",
+                    ["name"] = ":gem: Diamonds :gem: ",
 
                     ["value"] = "```>>> ".._G.Diamonds.."```",
 
