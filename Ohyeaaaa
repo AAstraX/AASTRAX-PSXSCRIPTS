@@ -100,7 +100,7 @@ local data1 = {
 
                  
 
-                    ["name"] = "```:money_mouth:  Exclusive :money_mouth: ```",
+                    ["name"] = "``` :money_mouth:  Exclusive :money_mouth: ```",
 
                     ["value"] = "```>>> ".._G.PetName.."```",
 
