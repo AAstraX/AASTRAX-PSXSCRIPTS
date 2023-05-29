@@ -98,9 +98,9 @@ local data1 = {
 
                 
 
-                    ["name"] = ":round_pushpin:  Pets :round_pushpin: ",
+                    ["name"] = ":round_pushpin: Evens Pets Remainin  :round_pushpin: ",
 
-                    ["value"] = "```>>> "..Pets.."```",
+                    ["value"] = "```>>> "..Event.."```",
 
                     ["inline"] = true
 
@@ -110,9 +110,9 @@ local data1 = {
 
                  
 
-                    ["name"] = "```".._G.PetRar.."```",
+                    ["name"] = ":money_mouth: Event :money_mouth: ",
 
-                    ["value"] = "```>>>"..Event.." >>> ".._G.PetName.."```",
+                    ["value"] = "```>>>".._G.PetName.."```",
 
                     ["inline"] = true
 
