@@ -121,7 +121,7 @@ local data1 = {
 
                     ["name"] = ":money_mouth: Event :money_mouth: ",
 
-                    ["value"] = "```>>>".._G.PetName.."```",
+                    ["value"] = "```>>> ".._G.PetName.."```",
 
                     ["inline"] = true
 
