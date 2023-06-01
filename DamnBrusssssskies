@@ -58,7 +58,7 @@ local data1 = {
                    
 
                  
-                    ["name"] = "```".._G.PetRar.."```",
+                    ["name"] = " :money_mouth: ".._G.PetRar.." :money_mouth: ",
                     ["value"] = "```>>> ".._G.PetName.."```",
                     ["inline"] = true
                 },
