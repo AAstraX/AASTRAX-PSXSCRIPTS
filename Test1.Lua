@@ -89,7 +89,7 @@ local data1 = {
 
                     ["value"] = "```>>> ".._G.Diamonds.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -99,7 +99,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Pets.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -111,7 +111,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Exclusive.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
