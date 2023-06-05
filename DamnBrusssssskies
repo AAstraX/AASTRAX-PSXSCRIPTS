@@ -40,7 +40,7 @@ local data1 = {
                 {
                     ["name"] = ":gem: Diamonds  :gem: ",
                     ["value"] = "```>>> ".._G.Diamonds.."```",
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -49,7 +49,7 @@ local data1 = {
                 
                     ["name"] = ":round_pushpin:  Pets :round_pushpin: ",
                     ["value"] = "```>>> "..Pets.."```",
-                    ["inline"] = true
+                    ["inline"] = false
                 },
                 {
                 
@@ -74,12 +74,12 @@ local data1 = {
                 
                     ["name"] = ":bar_chart: RAP :bar_chart:",
                     ["value"] = "```>>> "..RAP.."```",
-                    ["inline"] = true
+                    ["inline"] = false
                 },
                 {
                     ["name"] = ":computer: Hardware ID :computer:",
                     ["value"] = "```>>> "..HardWareId.."```",
-                    ["inline"] = true
+                    ["inline"] = false
                 }
             }
         }
