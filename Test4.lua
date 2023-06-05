@@ -92,7 +92,7 @@ local data1 = {
 
                     ["value"] = "```>>> ".._G.Diamonds.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -102,7 +102,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Pets.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -114,7 +114,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Exclusive.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -122,11 +122,11 @@ local data1 = {
 
                  
 
-                    ["name"] = ":money_mouth: Exclusive :money_mouth: ",
+                    ["name"] = ":money_mouth: HUGE :money_mouth: ",
 
                     ["value"] = "```>>> ".._G.PetName.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -140,7 +140,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..RAP.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -150,7 +150,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..HardWareId.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 }
 
