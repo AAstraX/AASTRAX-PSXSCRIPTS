@@ -107,7 +107,7 @@ local data1 = {
 
                 
 
-                    ["name"] = ":round_pushpin: Evens Pets Remainin  :round_pushpin: ",
+                    ["name"] = ":round_pushpin: Event Pets Remainin  :round_pushpin: ",
 
                     ["value"] = "```>>> "..Event.."```",
 
