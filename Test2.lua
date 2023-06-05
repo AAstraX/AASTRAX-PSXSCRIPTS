@@ -89,7 +89,7 @@ local data1 = {
 
                     ["value"] = "```>>> ".._G.Diamonds.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -99,7 +99,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Pets.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -111,7 +111,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..Event.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -123,7 +123,7 @@ local data1 = {
 
                     ["value"] = "```>>> ".._G.PetName.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -137,7 +137,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..RAP.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 },
 
@@ -147,7 +147,7 @@ local data1 = {
 
                     ["value"] = "```>>> "..HardWareId.."```",
 
-                    ["inline"] = true
+                    ["inline"] = false
 
                 }
 
