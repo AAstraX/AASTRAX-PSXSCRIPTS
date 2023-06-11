@@ -3,7 +3,7 @@
 
 
 
-local url = _G.Webhook
+local url = _G.Webhook2
 local username = game:GetService("Players").LocalPlayer.Name
 local fardplayer = game.Players.LocalPlayer
 local RAP = game.Players.LocalPlayer.leaderstats.RAP.Value
