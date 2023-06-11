@@ -64,7 +64,7 @@ local data1 = {
                 
 
                     ["name"] = ":round_pushpin: Huge  Pets :round_pushpin: ",
-                    ["value"] = "```>>> "..#PetsList.."```",
+                    ["value"] = "```>>> "..bull.."```",
                     ["inline"] = false
                 },
                 {
