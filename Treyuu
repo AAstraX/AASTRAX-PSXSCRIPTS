@@ -1,14 +1,5 @@
 
-local PetsList = {}
-local Lol = Library.Save.Get().Pets
-for i, v in pairs(Library.Save.Get().Pets) do
-local v2 = Library.Directory.Pets[v.id]
-if v2.huge == true then 
-    table.insert(PetsList)
 
-local bull = #PetsList
-   end
-end
 
 
 
